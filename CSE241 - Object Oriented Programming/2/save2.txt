@@ -1,0 +1,13 @@
+Saved
+Rows: 7
+Columns: 17
+__PPP___P___P.P__
+__PPP___P___...__
+_PPPP..PPPP..P.P_
+PPPPPPP...P.P....
+_PPPPP..P.PP.P.P_
+__PPP___.___...__
+__PPP___.___..P__
+HumanOrComputer: Computer
+NumberOfMoves: 28
+                                                                                                                        

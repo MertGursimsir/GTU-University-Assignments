@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"City","l":"City(int)","url":"%3Cinit%3E(int)"},{"p":"<Unnamed>","c":"City","l":"clone()"},{"p":"<Unnamed>","c":"City","l":"equals(Object)","url":"equals(java.lang.Object)"},{"p":"<Unnamed>","c":"City","l":"getLength()"},{"p":"<Unnamed>","c":"City","l":"setLength(int)"},{"p":"<Unnamed>","c":"City","l":"toString()"}]

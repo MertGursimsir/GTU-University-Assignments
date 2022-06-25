@@ -1,0 +1,468 @@
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 P P P P . P P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 43
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 P P . . P P P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 42
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 P P . P . . P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 41
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . P P . . P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 40
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . P P . . P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 40
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . P P . . P P P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 40
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . P P . P . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 39
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . . . P P . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 38
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P P P       
+4 P P P P P P P P P 
+5 . . . P . . . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 37
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P . P       
+4 P P P P . P P P P 
+5 . . . P P . . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 36
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P . P       
+4 P P P P . P P P P 
+5 . . . P P . . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 36
+
+  a b c d e f g h i 
+1       P P P       
+2       P P P       
+3       P . P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 35
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       P P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 34
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       . P P       
+4 P P P . . P P P P 
+5 . . . P . P . . P 
+6 P P P P P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 33
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       . P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P . P P P P P 
+7       P P P       
+8       P P P       
+9       P P P       
+Your score is 32
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       . P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       . P P       
+8       . P P       
+9       P P P       
+Your score is 31
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       . P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       . P P       
+9       P P P       
+Your score is 30
+
+  a b c d e f g h i 
+1       P . P       
+2       P . P       
+3       . P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 29
+
+  a b c d e f g h i 
+1       . . P       
+2       . . P       
+3       P P P       
+4 P P P P . P P P P 
+5 . . . . . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 28
+
+  a b c d e f g h i 
+1       . . P       
+2       . . P       
+3       . P P       
+4 P P P . . P P P P 
+5 . . . P . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 27
+
+  a b c d e f g h i 
+1       . . P       
+2       . . P       
+3       . P P       
+4 P . . P . P P P P 
+5 . . . P . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 26
+
+  a b c d e f g h i 
+1       . . P       
+2       . . P       
+3       . P P       
+4 P . . P P . . P P 
+5 . . . P . P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 25
+
+  a b c d e f g h i 
+1       . . P       
+2       . . P       
+3       . . P       
+4 P . . P . . . P P 
+5 . . . P P P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 24
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P . P . P P 
+5 . . . P P P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 23
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P . P P . . 
+5 . . . P P P . . P 
+6 P P P P P P P P P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 22
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P . P P . P 
+5 . . . P P P . . . 
+6 P P P P P P P P . 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 21
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P . P P . P 
+5 . . . P P P . . . 
+6 P P P P P P . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 20
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P P . . . P 
+5 . . . P P P . . . 
+6 P P P P P P . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 19
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P P P . . P 
+5 . . . P P . . . . 
+6 P P P P P . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 18
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P . . P . P 
+5 . . . P P . . . . 
+6 P P P P P . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 17
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P P . P . P 
+5 . . . P . . . . . 
+6 P P P P . . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 16
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P P . P 
+5 . . . P . . . . . 
+6 P P P P . . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 15
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . P . . . P 
+5 . . . P . . . . . 
+6 P P P P . . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 14
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . P P . . . P 
+5 . . . . . . . . . 
+6 P P P . . . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 13
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P . . P 
+5 . . . . . . . . . 
+6 P P P . . . . . P 
+7       P . .       
+8       P . .       
+9       P P P       
+Your score is 12
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P . . P 
+5 . . . . . . . . . 
+6 P P P P . . . . P 
+7       . . .       
+8       . . .       
+9       P P P       
+Your score is 11
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P . . P 
+5 . . . . . . . . . 
+6 P P . . P . . . P 
+7       . . .       
+8       . . .       
+9       P P P       
+Your score is 10
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P . . P 
+5 . . . . . . . . . 
+6 P P . . P . . . P 
+7       . . .       
+8       . . .       
+9       P P P       
+Your score is 10
+
+  a b c d e f g h i 
+1       . . P       
+2       . . .       
+3       . . .       
+4 P . . . . P . . P 
+5 . . . . . . . . . 
+6 . . P . P . . . P 
+7       . . .       
+8       . . .       
+9       P P P       
+Your score is 9
+

@@ -1,0 +1,2 @@
+canada ottawa 380 Left
+japan tokya 1260 Right

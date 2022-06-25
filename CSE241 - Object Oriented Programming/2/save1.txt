@@ -1,0 +1,11 @@
+Saved
+Rows: 5
+Columns: 9
+____P____
+___._P___
+__._._.__
+_._._._P_
+P_._P_P_P
+HumanOrComputer: Human
+NumberOfMoves: 5
+                                                                                                                        

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"MyGraph.Edge"},{"p":"<Unnamed>","l":"MyGraph"}]

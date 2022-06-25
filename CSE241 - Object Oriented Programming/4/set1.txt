@@ -1,0 +1,8 @@
+
+This set of DayOfYear objects has 2 dates.
+Its capacity is 3 now.
+Dates in this set are: 
+1. DATE ----> 1 January
+
+2. DATE ----> 2 February
+

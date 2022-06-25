@@ -1,0 +1,12 @@
+Arbitrary
+Rows: 9
+Columns: 13
+PPP_______PPP
+PPP_______PPP
+PPP_______PPP
+PPPPPPPPPPPPP
+PPPPPP.PPPPPP
+PPPPPPPPPPPPP
+PPP_______PPP
+PPP_______PPP
+PPP_______PPP

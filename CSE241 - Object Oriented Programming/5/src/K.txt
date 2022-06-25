@@ -1,0 +1,1024 @@
+  a b c d
+1 A X X B 
+2 A X X B 
+3 C D D E 
+4 C F G E 
+5 H     I 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 C D D E 
+4 C F G E 
+5 H   I   
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 C D D   
+4 C F G E 
+5 H   I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 C   D D 
+4 C F G E 
+5 H   I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 C   D D 
+4 C   G E 
+5 H F I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   C D D 
+4   C G E 
+5 H F I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   C D D 
+4 H C G E 
+5   F I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   C D D 
+4 H C G E 
+5 F   I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3     D D 
+4 H C G E 
+5 F C I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   D D   
+4 H C G E 
+5 F C I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D     
+4 H C G E 
+5 F C I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D G   
+4 H C   E 
+5 F C I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D   G 
+4 H C   E 
+5 F C I E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D   G 
+4 H C I E 
+5 F C   E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D I G 
+4 H C   E 
+5 F C   E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D I G 
+4 H   C E 
+5 F   C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D I G 
+4   H C E 
+5 F   C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 D D I G 
+4     C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3     I G 
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   I   G 
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3   I   G 
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I     G 
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I     G 
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I   G   
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G     
+4 D D C E 
+5 F H C E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C   
+4 D D C E 
+5 F H   E 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5 F H     
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5 F   H   
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5   F H   
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5   F   H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5   F   H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5   F   H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4 D D C E 
+5     F H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I G C E 
+4     C E 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I   C E 
+4   G C E 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I   C E 
+4 G   C E 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I C   E 
+4 G C   E 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X B 
+2 A X X B 
+3 I C E   
+4 G C E   
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X   
+2 A X X B 
+3 I C E B 
+4 G C E   
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A X X   
+2 A X X   
+3 I C E B 
+4 G C E B 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 A   X X 
+2 A   X X 
+3 I C E B 
+4 G C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1   A X X 
+2   A X X 
+3 I C E B 
+4 G C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1   A X X 
+2 I A X X 
+3   C E B 
+4 G C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2   A X X 
+3   C E B 
+4 G C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2   A X X 
+3 G C E B 
+4   C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2   A X X 
+3 G C E B 
+4   C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2 G A X X 
+3   C E B 
+4   C E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2 G A X X 
+3 C   E B 
+4 C   E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2 G A X X 
+3 C E   B 
+4 C E   B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I A X X 
+2 G A X X 
+3 C   E B 
+4 C   E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I   X X 
+2 G A X X 
+3 C A E B 
+4 C   E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I   X X 
+2 G   X X 
+3 C A E B 
+4 C A E B 
+5 D D F H 
+Your score is 5
+
+  a b c d
+1 I X X   
+2 G X X   
+3 C A E B 
+4 C A E B 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 I X X   
+2 G X X B 
+3 C A E B 
+4 C A E   
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A E   
+4 C A E   
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A   E 
+4 C A   E 
+5 D D F H 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A   E 
+4 C A F E 
+5 D D   H 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A F E 
+4 C A   E 
+5 D D   H 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A F E 
+4 C A   E 
+5 D D H   
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A F E 
+4 C A H E 
+5 D D     
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A F E 
+4 C A H E 
+5   D D   
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 C A F E 
+4 C A H E 
+5     D D 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3   A F E 
+4 C A H E 
+5 C   D D 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3     F E 
+4 C A H E 
+5 C A D D 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3   F   E 
+4 C A H E 
+5 C A D D 
+Your score is 4
+
+  a b c d
+1 I X X B 
+2 G X X B 
+3 F     E 
+4 C A H E 
+5 C A D D 
+Your score is 4
+
+  a b c d
+1 I     B 
+2 G X X B 
+3 F X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1   I   B 
+2 G X X B 
+3 F X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1     I B 
+2 G X X B 
+3 F X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1 G   I B 
+2   X X B 
+3 F X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1   G I B 
+2   X X B 
+3 F X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1   G I B 
+2 F X X B 
+3   X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2   X X B 
+3   X X E 
+4 C A H E 
+5 C A D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2   X X B 
+3 C X X E 
+4 C A H E 
+5   A D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C X X B 
+3 C X X E 
+4   A H E 
+5   A D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C X X B 
+3 C X X E 
+4 A   H E 
+5 A   D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C X X B 
+3 C X X E 
+4 A   H E 
+5 A   D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C X X B 
+3 C X X E 
+4 A H   E 
+5 A   D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C X X B 
+3 C X X E 
+4 A     E 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 F G I B 
+2 C     B 
+3 C X X E 
+4 A X X E 
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G   B 
+2 C   I B 
+3 C X X E 
+4 A X X E 
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G   B 
+2 C I   B 
+3 C X X E 
+4 A X X E 
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G B   
+2 C I B   
+3 C X X E 
+4 A X X E 
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G B   
+2 C I B E 
+3 C X X E 
+4 A X X   
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G B E 
+2 C I B E 
+3 C X X   
+4 A X X   
+5 A H D D 
+Your score is 2
+
+  a b c d
+1 F G B E 
+2 C I B E 
+3 C   X X 
+4 A   X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 F G B E 
+2 C   B E 
+3 C I X X 
+4 A   X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 F G B E 
+2 C   B E 
+3 C   X X 
+4 A I X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 F   B E 
+2 C G B E 
+3 C   X X 
+4 A I X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1   F B E 
+2 C G B E 
+3 C   X X 
+4 A I X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 C F B E 
+2 C G B E 
+3     X X 
+4 A I X X 
+5 A H D D 
+Your score is 3
+
+  a b c d
+1 C F B E 
+2 C G B E 
+3 A   X X 
+4 A I X X 
+5   H D D 
+Your score is 3
+
+  a b c d
+1 C F B E 
+2 C G B E 
+3 A   X X 
+4 A I X X 
+5 H   D D 
+Your score is 3
+
+  a b c d
+1 C F B E 
+2 C G B E 
+3 A   X X 
+4 A   X X 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 C F B E 
+2 C G B E 
+3 A X X   
+4 A X X   
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 C F B   
+2 C G B E 
+3 A X X E 
+4 A X X   
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 C F B   
+2 C G B   
+3 A X X E 
+4 A X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 C F   B 
+2 C G   B 
+3 A X X E 
+4 A X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 C   F B 
+2 C G   B 
+3 A X X E 
+4 A X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 C   F B 
+2 C   G B 
+3 A X X E 
+4 A X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1   C F B 
+2   C G B 
+3 A X X E 
+4 A X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1   C F B 
+2 A C G B 
+3 A X X E 
+4   X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 A C F B 
+2 A C G B 
+3   X X E 
+4   X X E 
+5 H I D D 
+Your score is 2
+
+  a b c d
+1 A C F B 
+2 A C G B 
+3 X X   E 
+4 X X   E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C F B 
+2 A C   B 
+3 X X G E 
+4 X X   E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C F B 
+2 A C   B 
+3 X X   E 
+4 X X G E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C   B 
+2 A C F B 
+3 X X   E 
+4 X X G E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C   B 
+2 A C   B 
+3 X X F E 
+4 X X G E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B   
+2 A C B   
+3 X X F E 
+4 X X G E 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B   
+2 A C B E 
+3 X X F E 
+4 X X G   
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F   
+4 X X G   
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F   
+4 X X   G 
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X     
+5 H I D D 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X D D 
+5 H I     
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X D D 
+5 H   I   
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X D D 
+5 H     I 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X D D 
+5   H   I 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 X X F G 
+4 X X D D 
+5     H I 
+Your score is 3
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3     F G 
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3     F G 
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3   F   G 
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F     G 
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F   G   
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F G     
+4 X X D D 
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F G D D 
+4 X X     
+5 X X H I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F G D D 
+4 X X H   
+5 X X   I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F G D D 
+4 X X   H 
+5 X X   I 
+Your score is 1
+
+  a b c d
+1 A C B E 
+2 A C B E 
+3 F G D D 
+4   X X H 
+5   X X I 
+Your score is 0
+

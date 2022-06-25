@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"convertToBST","l":"convert(BinaryTree<T>, T[])","url":"convert(sourcepackage.BinaryTree,T[])"},{"p":"<Unnamed>","c":"convertToBST","l":"convertToBST()","url":"%3Cinit%3E()"}]

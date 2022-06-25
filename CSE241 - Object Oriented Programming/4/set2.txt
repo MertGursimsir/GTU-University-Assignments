@@ -1,0 +1,4 @@
+
+This set of DayOfYear objects has 0 dates.
+Its capacity is 0 now.
+Dates in this set are: 

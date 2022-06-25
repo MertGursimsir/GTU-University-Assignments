@@ -1,0 +1,9 @@
+Arbitrary
+Rows: 6
+Columns: 12
+___PPP_PPPP_
+PPPPPPPPPPPP
+PPP.PPP_PPP_
+PPPPPPP_PPP_
+_PPPPP__PPP_
+__PPP_______

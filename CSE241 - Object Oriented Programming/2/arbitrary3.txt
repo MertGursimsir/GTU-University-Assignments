@@ -1,0 +1,10 @@
+Arbitrary
+Rows: 7
+Columns: 17
+__PPP___P___PPP__
+__PPP___P___PPP__
+_PPPPPPPPPPPPPPP_
+PPPPPPPP.PPPPPPPP
+_PPPPPPPPPPPPPPP_
+__PPP___P___PPP__
+__PPP___P___PPP__

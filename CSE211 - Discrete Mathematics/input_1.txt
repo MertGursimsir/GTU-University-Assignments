@@ -1,0 +1,13 @@
+A
+rainy
+sunny
+snowy
+windy
+B
+london
+sardunia
+ottawa
+berlin
+sardunia
+berlin
+

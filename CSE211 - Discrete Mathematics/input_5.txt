@@ -1,0 +1,16 @@
+A
+apple
+yellow
+4
+B
+orange
+orange
+2
+C
+3
+abc
+black
+D
+def
+234
+56
