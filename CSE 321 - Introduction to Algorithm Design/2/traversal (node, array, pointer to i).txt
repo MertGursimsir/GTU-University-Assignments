@@ -1,0 +1,45 @@
+traversal (node, array, pointer to i)
+	if node == null then
+		return
+	endif
+
+	traversal(node->left, array, pointer to i)
+
+	array[i] = node->data
+	i <- i + 1
+
+	traversal(node->right, array, pointer to i)
+end
+
+traverseArray(array, root, pointer to i)
+	if root == null then
+		return
+	endif
+
+	traverseArray(array, root->left, i)
+	root = array[i]
+	i <- i + 1
+	traverseArray(array, root->right, i)
+end
+
+convertToBST(tree)
+	if root == null then
+		return
+	endif
+
+	array <- []
+	i = 0
+	traversal(root of tree, array, pointer to i)
+
+	for i = 0 to len(array)
+		current <- array[i]
+		for j = i+1 to len(array)
+			if array[j] < array[i] then
+				swap array[i] and array[j]
+			endif
+		endfor
+	endfor
+
+	i = 0
+	traverseArray(array, root, pointer to i)
+end
