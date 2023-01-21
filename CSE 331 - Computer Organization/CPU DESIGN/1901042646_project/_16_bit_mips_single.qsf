@@ -1,0 +1,91 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 17:34:19  January 16, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		_16_bit_mips_single_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY _16_bit_mips_single
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:34:19  JANUARY 16, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE _16_bit_mips_single.v
+set_global_assignment -name VERILOG_FILE instruction_block.v
+set_global_assignment -name VERILOG_FILE _16_bit_set_less_than.v
+set_global_assignment -name VERILOG_FILE _16_bit_shift_left.v
+set_global_assignment -name VERILOG_FILE _16_bit_shift_right.v
+set_global_assignment -name VERILOG_FILE _16_bit_subtractor.v
+set_global_assignment -name VERILOG_FILE _16_bits_or.v
+set_global_assignment -name VERILOG_FILE _16_bits_and.v
+set_global_assignment -name VERILOG_FILE alu_control.v
+set_global_assignment -name VERILOG_FILE alu_control_test.v
+set_global_assignment -name VERILOG_FILE alu16.v
+set_global_assignment -name VERILOG_FILE register_block.v
+set_global_assignment -name VERILOG_FILE register_test.v
+set_global_assignment -name VERILOG_FILE alu16_test.v
+set_global_assignment -name VERILOG_FILE control_test.v
+set_global_assignment -name VERILOG_FILE control_unit.v
+set_global_assignment -name VERILOG_FILE full_adder.v
+set_global_assignment -name VERILOG_FILE half_adder.v
+set_global_assignment -name VERILOG_FILE instruction_test.v
+set_global_assignment -name VERILOG_FILE memory_block.v
+set_global_assignment -name VERILOG_FILE memory_test.v
+set_global_assignment -name VERILOG_FILE _2x1_mux.v
+set_global_assignment -name VERILOG_FILE _8x1_mux.v
+set_global_assignment -name VERILOG_FILE _16_bit_adder.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE _2x1_16_bit_mux.v
+set_global_assignment -name VERILOG_FILE mips_test.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VERILOG_FILE mips_test_sub.v
+set_global_assignment -name VERILOG_FILE mips_test_srl.v
+set_global_assignment -name VERILOG_FILE mips_test_sll.v
+set_global_assignment -name VERILOG_FILE mips_test_and.v
+set_global_assignment -name VERILOG_FILE mips_test_or.v
+set_global_assignment -name VERILOG_FILE mips_test_slt.v
+set_global_assignment -name VERILOG_FILE mips_test_lw.v
+set_global_assignment -name VERILOG_FILE mips_test_sw.v
+set_global_assignment -name VERILOG_FILE mips_test_slti.v
+set_global_assignment -name VERILOG_FILE mips_test_andi.v
+set_global_assignment -name VERILOG_FILE mips_test_ori.v
+set_global_assignment -name VERILOG_FILE mips_test_addi.v
+set_global_assignment -name VERILOG_FILE mips_special_first.v
+set_global_assignment -name VERILOG_FILE mips_special_second.v

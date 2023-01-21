@@ -1,0 +1,631 @@
+Analysis & Synthesis report for _16_bit_mips_single
+Tue Jan 17 01:22:04 2023
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M15"
+ 10. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M14"
+ 11. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M13"
+ 12. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M12"
+ 13. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M11"
+ 14. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M10"
+ 15. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M9"
+ 16. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M8"
+ 17. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M7"
+ 18. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M6"
+ 19. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M5"
+ 20. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M4"
+ 21. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M3"
+ 22. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M2"
+ 23. Port Connectivity Checks: "alu16:_alu|_8x1_mux:M1"
+ 24. Port Connectivity Checks: "alu16:_alu|_16_bit_set_less_than:slt_nums|_16_bit_subtractor:sub"
+ 25. Port Connectivity Checks: "alu16:_alu|_16_bit_subtractor:sub_nums|_16_bit_adder:A0"
+ 26. Port Connectivity Checks: "alu16:_alu|_16_bit_subtractor:sub_nums"
+ 27. Port Connectivity Checks: "alu16:_alu|_16_bit_adder:add_nums"
+ 28. Port Connectivity Checks: "alu16:_alu"
+ 29. Port Connectivity Checks: "control_unit:CONT0"
+ 30. Port Connectivity Checks: "instruction_block:I"
+ 31. Elapsed Time Per Partition
+ 32. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Jan 17 01:22:04 2023      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; _16_bit_mips_single                        ;
+; Top-level Entity Name              ; _16_bit_mips_single                        ;
+; Family                             ; Cyclone IV GX                              ;
+; Total logic elements               ; 0                                          ;
+;     Total combinational functions  ; 0                                          ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 11                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total GXB Receiver Channel PCS     ; 0                                          ;
+; Total GXB Receiver Channel PMA     ; 0                                          ;
+; Total GXB Transmitter Channel PCS  ; 0                                          ;
+; Total GXB Transmitter Channel PMA  ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                          ;
++----------------------------------------------------------------------------+---------------------+---------------------+
+; Option                                                                     ; Setting             ; Default Value       ;
++----------------------------------------------------------------------------+---------------------+---------------------+
+; Top-level entity name                                                      ; _16_bit_mips_single ; _16_bit_mips_single ;
+; Family name                                                                ; Cyclone IV GX       ; Cyclone IV GX       ;
+; Use smart compilation                                                      ; Off                 ; Off                 ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                  ; On                  ;
+; Enable compact report table                                                ; Off                 ; Off                 ;
+; Restructure Multiplexers                                                   ; Auto                ; Auto                ;
+; Create Debugging Nodes for IP Cores                                        ; Off                 ; Off                 ;
+; Preserve fewer node names                                                  ; On                  ; On                  ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                 ; Off                 ;
+; Verilog Version                                                            ; Verilog_2001        ; Verilog_2001        ;
+; VHDL Version                                                               ; VHDL_1993           ; VHDL_1993           ;
+; State Machine Processing                                                   ; Auto                ; Auto                ;
+; Safe State Machine                                                         ; Off                 ; Off                 ;
+; Extract Verilog State Machines                                             ; On                  ; On                  ;
+; Extract VHDL State Machines                                                ; On                  ; On                  ;
+; Ignore Verilog initial constructs                                          ; Off                 ; Off                 ;
+; Iteration limit for constant Verilog loops                                 ; 5000                ; 5000                ;
+; Iteration limit for non-constant Verilog loops                             ; 250                 ; 250                 ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                  ; On                  ;
+; Infer RAMs from Raw Logic                                                  ; On                  ; On                  ;
+; Parallel Synthesis                                                         ; On                  ; On                  ;
+; DSP Block Balancing                                                        ; Auto                ; Auto                ;
+; NOT Gate Push-Back                                                         ; On                  ; On                  ;
+; Power-Up Don't Care                                                        ; On                  ; On                  ;
+; Remove Redundant Logic Cells                                               ; Off                 ; Off                 ;
+; Remove Duplicate Registers                                                 ; On                  ; On                  ;
+; Ignore CARRY Buffers                                                       ; Off                 ; Off                 ;
+; Ignore CASCADE Buffers                                                     ; Off                 ; Off                 ;
+; Ignore GLOBAL Buffers                                                      ; Off                 ; Off                 ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                 ; Off                 ;
+; Ignore LCELL Buffers                                                       ; Off                 ; Off                 ;
+; Ignore SOFT Buffers                                                        ; On                  ; On                  ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                 ; Off                 ;
+; Optimization Technique                                                     ; Balanced            ; Balanced            ;
+; Carry Chain Length                                                         ; 70                  ; 70                  ;
+; Auto Carry Chains                                                          ; On                  ; On                  ;
+; Auto Open-Drain Pins                                                       ; On                  ; On                  ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                 ; Off                 ;
+; Auto ROM Replacement                                                       ; On                  ; On                  ;
+; Auto RAM Replacement                                                       ; On                  ; On                  ;
+; Auto DSP Block Replacement                                                 ; On                  ; On                  ;
+; Auto Shift Register Replacement                                            ; Auto                ; Auto                ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto                ; Auto                ;
+; Auto Clock Enable Replacement                                              ; On                  ; On                  ;
+; Strict RAM Replacement                                                     ; Off                 ; Off                 ;
+; Allow Synchronous Control Signals                                          ; On                  ; On                  ;
+; Force Use of Synchronous Clear Signals                                     ; Off                 ; Off                 ;
+; Auto RAM Block Balancing                                                   ; On                  ; On                  ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                 ; Off                 ;
+; Auto Resource Sharing                                                      ; Off                 ; Off                 ;
+; Allow Any RAM Size For Recognition                                         ; Off                 ; Off                 ;
+; Allow Any ROM Size For Recognition                                         ; Off                 ; Off                 ;
+; Allow Any Shift Register Size For Recognition                              ; Off                 ; Off                 ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                  ; On                  ;
+; Ignore translate_off and synthesis_off directives                          ; Off                 ; Off                 ;
+; Timing-Driven Synthesis                                                    ; On                  ; On                  ;
+; Report Parameter Settings                                                  ; On                  ; On                  ;
+; Report Source Assignments                                                  ; On                  ; On                  ;
+; Report Connectivity Checks                                                 ; On                  ; On                  ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                 ; Off                 ;
+; Synchronization Register Chain Length                                      ; 2                   ; 2                   ;
+; PowerPlay Power Optimization                                               ; Normal compilation  ; Normal compilation  ;
+; HDL message level                                                          ; Level2              ; Level2              ;
+; Suppress Register Optimization Related Messages                            ; Off                 ; Off                 ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000                ; 5000                ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000                ; 5000                ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                 ; 100                 ;
+; Clock MUX Protection                                                       ; On                  ; On                  ;
+; Auto Gated Clock Conversion                                                ; Off                 ; Off                 ;
+; Block Design Naming                                                        ; Auto                ; Auto                ;
+; SDC constraint protection                                                  ; Off                 ; Off                 ;
+; Synthesis Effort                                                           ; Auto                ; Auto                ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                  ; On                  ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                 ; Off                 ;
+; Analysis & Synthesis Message Level                                         ; Medium              ; Medium              ;
+; Disable Register Merging Across Hierarchies                                ; Auto                ; Auto                ;
+; Resource Aware Inference For Block RAM                                     ; On                  ; On                  ;
+; Synthesis Seed                                                             ; 1                   ; 1                   ;
++----------------------------------------------------------------------------+---------------------+---------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                      ;
++-------------------------------------+-----------------+------------------------+------------------------------------------------------------------+---------+
+; File Name with User-Entered Path    ; Used in Netlist ; File Type              ; File Name with Absolute Path                                     ; Library ;
++-------------------------------------+-----------------+------------------------+------------------------------------------------------------------+---------+
+; _16_bit_mips_single.v               ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_mips_single.v   ;         ;
+; instruction_block.v                 ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/instruction_block.v     ;         ;
+; _16_bit_set_less_than.v             ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_set_less_than.v ;         ;
+; _16_bit_shift_left.v                ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_shift_left.v    ;         ;
+; _16_bit_shift_right.v               ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_shift_right.v   ;         ;
+; _16_bit_subtractor.v                ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_subtractor.v    ;         ;
+; _16_bits_or.v                       ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bits_or.v           ;         ;
+; _16_bits_and.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bits_and.v          ;         ;
+; alu_control.v                       ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/alu_control.v           ;         ;
+; alu16.v                             ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/alu16.v                 ;         ;
+; register_block.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/register_block.v        ;         ;
+; control_unit.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/control_unit.v          ;         ;
+; full_adder.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/full_adder.v            ;         ;
+; half_adder.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/half_adder.v            ;         ;
+; memory_block.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/memory_block.v          ;         ;
+; _2x1_mux.v                          ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_2x1_mux.v              ;         ;
+; _8x1_mux.v                          ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_8x1_mux.v              ;         ;
+; _16_bit_adder.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_16_bit_adder.v         ;         ;
+; _2x1_16_bit_mux.v                   ; yes             ; User Verilog HDL File  ; C:/Users/Mert/Desktop/1901042646_project/_2x1_16_bit_mux.v       ;         ;
+; /users/mert/desktop/memory.txt      ; yes             ; Auto-Found File        ; /users/mert/desktop/memory.txt                                   ;         ;
+; /users/mert/desktop/register.txt    ; yes             ; Auto-Found File        ; /users/mert/desktop/register.txt                                 ;         ;
+; /users/mert/desktop/instruction.txt ; yes             ; Auto-Found File        ; /users/mert/desktop/instruction.txt                              ;         ;
++-------------------------------------+-----------------+------------------------+------------------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 11               ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; PC[0]            ;
+; Maximum fan-out          ; 1                ;
+; Total fan-out            ; 11               ;
+; Average fan-out          ; 0.50             ;
++--------------------------+------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                      ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name  ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
+; |_16_bit_mips_single       ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 11   ; 0            ; |_16_bit_mips_single ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M15" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M14" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M13" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M12" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M11" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M10" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; I6   ; Input ; Info     ; Stuck at GND              ;
++------+-------+----------+---------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M9" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M8" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M7" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M6" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M5" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M4" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M3" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M2" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_8x1_mux:M1" ;
++------+-------+----------+--------------------------+
+; Port ; Type  ; Severity ; Details                  ;
++------+-------+----------+--------------------------+
+; I6   ; Input ; Info     ; Stuck at GND             ;
++------+-------+----------+--------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_16_bit_set_less_than:slt_nums|_16_bit_subtractor:sub"                         ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; SUB[14..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_16_bit_subtractor:sub_nums|_16_bit_adder:A0" ;
++------+-------+----------+-----------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                   ;
++------+-------+----------+-----------------------------------------------------------+
+; CIn  ; Input ; Info     ; Stuck at VCC                                              ;
++------+-------+----------+-----------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_16_bit_subtractor:sub_nums"                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; C14  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu|_16_bit_adder:add_nums"                                                  ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; CIn  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; COut ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; C14  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu16:_alu"                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Zero ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "control_unit:CONT0"                                                                    ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; beq     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; bne     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; memRead ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "instruction_block:I"                                                                       ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; instr[1..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Tue Jan 17 01:22:02 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off _16_bit_mips_single -c _16_bit_mips_single
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_mips_single.v
+    Info (12023): Found entity 1: _16_bit_mips_single
+Info (12021): Found 1 design units, including 1 entities, in source file instruction_block.v
+    Info (12023): Found entity 1: instruction_block
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_set_less_than.v
+    Info (12023): Found entity 1: _16_bit_set_less_than
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_shift_left.v
+    Info (12023): Found entity 1: _16_bit_shift_left
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_shift_right.v
+    Info (12023): Found entity 1: _16_bit_shift_right
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_subtractor.v
+    Info (12023): Found entity 1: _16_bit_subtractor
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bits_or.v
+    Info (12023): Found entity 1: _16_bits_or
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bits_and.v
+    Info (12023): Found entity 1: _16_bits_and
+Info (12021): Found 1 design units, including 1 entities, in source file alu_control.v
+    Info (12023): Found entity 1: alu_control
+Info (12021): Found 1 design units, including 1 entities, in source file alu_control_test.v
+    Info (12023): Found entity 1: alu_control_test
+Info (12021): Found 1 design units, including 1 entities, in source file alu16.v
+    Info (12023): Found entity 1: alu16
+Info (12021): Found 1 design units, including 1 entities, in source file register_block.v
+    Info (12023): Found entity 1: register_block
+Info (12021): Found 1 design units, including 1 entities, in source file register_test.v
+    Info (12023): Found entity 1: register_test
+Info (12021): Found 1 design units, including 1 entities, in source file alu16_test.v
+    Info (12023): Found entity 1: alu16_test
+Info (12021): Found 1 design units, including 1 entities, in source file control_test.v
+    Info (12023): Found entity 1: control_test
+Info (12021): Found 1 design units, including 1 entities, in source file control_unit.v
+    Info (12023): Found entity 1: control_unit
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
+    Info (12023): Found entity 1: full_adder
+Info (12021): Found 1 design units, including 1 entities, in source file half_adder.v
+    Info (12023): Found entity 1: half_adder
+Info (12021): Found 1 design units, including 1 entities, in source file instruction_test.v
+    Info (12023): Found entity 1: instruction_test
+Info (12021): Found 1 design units, including 1 entities, in source file memory_block.v
+    Info (12023): Found entity 1: memory_block
+Info (12021): Found 1 design units, including 1 entities, in source file memory_test.v
+    Info (12023): Found entity 1: memory_test
+Info (12021): Found 1 design units, including 1 entities, in source file _2x1_mux.v
+    Info (12023): Found entity 1: _2x1_mux
+Info (12021): Found 1 design units, including 1 entities, in source file _8x1_mux.v
+    Info (12023): Found entity 1: _8x1_mux
+Info (12021): Found 1 design units, including 1 entities, in source file _16_bit_adder.v
+    Info (12023): Found entity 1: _16_bit_adder
+Info (12021): Found 1 design units, including 1 entities, in source file _2x1_16_bit_mux.v
+    Info (12023): Found entity 1: _2x1_16_bit_mux
+Info (12021): Found 1 design units, including 1 entities, in source file mips_test.v
+    Info (12023): Found entity 1: mips_test
+Info (12127): Elaborating entity "_16_bit_mips_single" for the top level hierarchy
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(22): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(23): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(24): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(25): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(26): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(27): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(29): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(30): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(31): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(32): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(34): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(35): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(36): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(37): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(39): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(40): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(41): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(42): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(44): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(45): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(46): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(47): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(49): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(50): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(51): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(52): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(53): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(54): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(56): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(57): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(58): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(59): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(60): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(61): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(62): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(63): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(64): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(65): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(66): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(67): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(68): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(69): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(70): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(71): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(73): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(74): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(75): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(76): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(77): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(78): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(79): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(80): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(81): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at _16_bit_mips_single.v(82): actual bit length 32 differs from formal bit length 1
+Info (12128): Elaborating entity "instruction_block" for hierarchy "instruction_block:I"
+Warning (10030): Net "instructions.data_a" at instruction_block.v(6) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "instructions.waddr_a" at instruction_block.v(6) has no driver or initial value, using a default initial value '0'
+Warning (10030): Net "instructions.we_a" at instruction_block.v(6) has no driver or initial value, using a default initial value '0'
+Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:CONT0"
+Warning (10739): Verilog HDL warning at control_unit.v(40): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at control_unit.v(42): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at control_unit.v(43): actual bit length 32 differs from formal bit length 1
+Warning (10739): Verilog HDL warning at control_unit.v(45): actual bit length 32 differs from formal bit length 1
+Info (12128): Elaborating entity "_2x1_mux" for hierarchy "_2x1_mux:MUX0"
+Info (12128): Elaborating entity "register_block" for hierarchy "register_block:regist"
+Warning (10175): Verilog HDL warning at register_block.v(17): ignoring unsupported system task
+Info (12128): Elaborating entity "_2x1_16_bit_mux" for hierarchy "_2x1_16_bit_mux:MUXEx0"
+Info (12128): Elaborating entity "alu_control" for hierarchy "alu_control:_aluc"
+Info (12128): Elaborating entity "alu16" for hierarchy "alu16:_alu"
+Info (12128): Elaborating entity "_16_bit_adder" for hierarchy "alu16:_alu|_16_bit_adder:add_nums"
+Info (12128): Elaborating entity "full_adder" for hierarchy "alu16:_alu|_16_bit_adder:add_nums|full_adder:FA0"
+Info (12128): Elaborating entity "half_adder" for hierarchy "alu16:_alu|_16_bit_adder:add_nums|full_adder:FA0|half_adder:HA1"
+Info (12128): Elaborating entity "_16_bit_subtractor" for hierarchy "alu16:_alu|_16_bit_subtractor:sub_nums"
+Info (12128): Elaborating entity "_16_bit_shift_left" for hierarchy "alu16:_alu|_16_bit_shift_left:sll_nums"
+Info (12128): Elaborating entity "_16_bits_and" for hierarchy "alu16:_alu|_16_bits_and:and_nums"
+Info (12128): Elaborating entity "_16_bits_or" for hierarchy "alu16:_alu|_16_bits_or:or_nums"
+Info (12128): Elaborating entity "_16_bit_set_less_than" for hierarchy "alu16:_alu|_16_bit_set_less_than:slt_nums"
+Info (12128): Elaborating entity "_16_bit_shift_right" for hierarchy "alu16:_alu|_16_bit_shift_right:srl_nums"
+Info (12128): Elaborating entity "_8x1_mux" for hierarchy "alu16:_alu|_8x1_mux:M0"
+Info (12128): Elaborating entity "memory_block" for hierarchy "memory_block:mem"
+Warning (10175): Verilog HDL warning at memory_block.v(17): ignoring unsupported system task
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 11 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "PC[0]"
+    Warning (15610): No output dependent on input pin "PC[1]"
+    Warning (15610): No output dependent on input pin "PC[2]"
+    Warning (15610): No output dependent on input pin "PC[3]"
+    Warning (15610): No output dependent on input pin "PC[4]"
+    Warning (15610): No output dependent on input pin "PC[5]"
+    Warning (15610): No output dependent on input pin "PC[6]"
+    Warning (15610): No output dependent on input pin "PC[7]"
+    Warning (15610): No output dependent on input pin "PC[8]"
+    Warning (15610): No output dependent on input pin "PC[9]"
+    Warning (15610): No output dependent on input pin "clk"
+Info (21057): Implemented 11 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 11 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 76 warnings
+    Info: Peak virtual memory: 4673 megabytes
+    Info: Processing ended: Tue Jan 17 01:22:04 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
